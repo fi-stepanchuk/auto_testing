@@ -3,8 +3,9 @@ const settings = {
 }
 
 const automationCreds = {
-    login: '',
-    password: ''
+    login: 'stepanchuk@email.com',
+    userName: 'Stepanchuk Andrii',
+    password: '1234qwer'
 };
 
 
