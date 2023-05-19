@@ -11,6 +11,6 @@ describe('Google Testing', () => {
         expect(testingResults).toHaveProperty(['exists', 'searchInput'], true);
         expect(testingResults).toHaveProperty(['exists', 'searchButton'], true);
         expect(testingResults).toHaveProperty(['exists', 'gmailLink'], true);
-    });
+    }, 10000);
 });
 

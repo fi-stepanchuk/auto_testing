@@ -1,6 +1,6 @@
 const {Builder, By} = require('selenium-webdriver');
 const { settings } = require('../../config/settings');
-const { isElementExist } = require('./helper');
+const { isElementExist } = require('../helper');
 
 
 
